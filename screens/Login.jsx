@@ -37,23 +37,23 @@ export default function Login({navigation}){
             secureTextEntry
             style={styles.input}
           /> 
-          {error ? <Text style={styles.error} value={error}/> : "null"}
+          {error ? <Text style={styles.error} value={error}/> : null}
 
           <Button
             mode="contained"
             onPress={handleLogin} 
             style={styles.button}
-            text="Conectar"/>
+            Conectar/>
           <Button
             mode="text"
             onPress={handleForget} 
             style={styles.button}
-            text= "Esqueci minha senha"/>  
+            Esqueci minha senha/>  
         </View>
     )
 }
 
-const styles = StyleSheet.Create({
+const styles = StyleSheet.create({
   container:{
     flex: 1,
     justifyContent: "center",
