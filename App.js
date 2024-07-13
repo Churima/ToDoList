@@ -1,6 +1,5 @@
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
-import { FlatList, StyleSheet, Text, View } from "react-native";
 import { PaperProvider } from "react-native-paper";
 import Home from "./screens/Home";
 import Login from "./screens/Login";

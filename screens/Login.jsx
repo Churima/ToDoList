@@ -43,12 +43,12 @@ export default function Login({navigation}){
             mode="contained"
             onPress={handleLogin} 
             style={styles.button}
-            Conectar/>
+          >Conectar</Button>
           <Button
             mode="text"
             onPress={handleForget} 
             style={styles.button}
-            Esqueci minha senha/>  
+          >Esqueci minha senha</Button>
         </View>
     )
 }
